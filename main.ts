@@ -977,7 +977,7 @@ info.onLifeZero(function () {
 })
 let player_2: StatusBarSprite = null
 let player_1: StatusBarSprite = null
-music.play(music.createSong(assets.song`MUSIC`), music.PlaybackMode.UntilDone)
+music.play(music.createSong(assets.song`MUSIC`), music.PlaybackMode.LoopingInBackground)
 mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.One), sprites.create(assets.image`red boxer`, SpriteKind.Player))
 mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(img`
     ........................................................................................................................................................................................................................................................................................................
